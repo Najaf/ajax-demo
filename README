@@ -1,2 +1,13 @@
 Contact form that validates on server-side via AJAX call
 ========================================================
+
+Makes use of:
+  - AJAX by way of JavaScript + JQuery
+  - OO PHP, using classes to help render the form and validate the data
+  - HTML/CSS to structure, layout and style the form
+
+Simplified for demonstration. 
+
+A real website would use a front controller rather than a page controller that 
+would provide a single point of access and handle both regular and AJAX 
+based requests.

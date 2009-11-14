@@ -7,8 +7,7 @@
 	if ($params['success'] == true) {
 		doStuffWithData();
 	}
-
-
+  
 	//send a response back to the form	
 	echo json_encode($params);
 
@@ -16,8 +15,8 @@
 
 	function doStuffWithData() {
 		//e.g. send to a database, mail a thank you etc
-		//in a prodution scenario would probably hand execution
-		//over to one of many 'command' classes
+    //in a prodution scenario would probably be running
+    //from a controller class
 	}
 
 	class FormValidator {

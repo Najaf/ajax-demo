@@ -14,4 +14,16 @@
     function doctype() {
       return "<!DOCTYPE html>\n";
     }
+
+    function label($for, $text) {
+      return "<label for='{$for}'>$text</label>\n";
+    }
+
+    function text_input( $name, $value ) {
+      return "<input type='text' name='{$name}' id='{$name}' value='{$value}' />\n";
+    }
+
+    function error_notification( $field, $message ) {
+      return "<p class='notification' id='{$field}-error'>\n{$message}\n</p>";
+    }
   }
